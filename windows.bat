@@ -2,7 +2,7 @@
 
 REM Set variables
 set APP_DIR=HaiVE-AI-Studio
-set DOWNLOAD_URL=http://localhost:5000/windows.zip
+set DOWNLOAD_URL=https://public-download.mum-objectstore.e2enetworks.net/windows.zip
 set DOWNLOAD_PATH=%USERPROFILE%\Downloads\temp
 set USER_DIRECTORY=%USERPROFILE%
 set EXE_FILE="%USERPROFILE%"\"%APP_DIR%"\executables\zrok.exe
