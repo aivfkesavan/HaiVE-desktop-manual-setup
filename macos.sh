@@ -9,7 +9,7 @@ EXE_FILE="$HOME/$APP_DIR/executables/zrok.exe"
 
 # Disabling zrok
 if [ -f "$EXE_FILE" ]; then
-  if [ -d "$USER_DIRECTORY/$APP_DIR" ]; then
+  if [ -d "$USER_DIRECTORY/.zrok" ]; then
     echo "Disabling zrok..."
     "$EXE_FILE" disable
     echo "Zrok disabled."
