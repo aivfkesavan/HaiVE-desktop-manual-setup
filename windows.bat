@@ -9,7 +9,7 @@ set EXE_FILE="%USERPROFILE%"\"%APP_DIR%"\executables\zrok.exe
 
 REM Disabling zrok
 if exist "%EXE_FILE%" (
-  if exist "%USER_DIRECTORY%"\"%APP_DIR%" (
+  if exist "%USER_DIRECTORY%"\.zrok (
     echo Disabling zrok...
     start /wait "" "%EXE_FILE%" disable
     echo Zrok disabled.
