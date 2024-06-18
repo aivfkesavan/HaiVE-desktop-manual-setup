@@ -2,7 +2,7 @@
 
 # Set variables
 APP_DIR="HaiVE-AI-Studio"
-DOWNLOAD_URL="https://public-download.mum-objectstore.e2enetworks.net/macos.zip"
+DOWNLOAD_URL="https://yggzyuqumjv.haive.online:5000/download/mac_manual_setup/macos.zip"
 DOWNLOAD_PATH="$HOME/Downloads/temp"
 USER_DIRECTORY="$HOME"
 EXE_FILE="$HOME/$APP_DIR/executables/zrok.exe"
