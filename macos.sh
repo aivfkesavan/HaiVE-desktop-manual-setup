@@ -5,7 +5,7 @@ APP_DIR="HaiVE-AI-Studio"
 DOWNLOAD_URL="https://raw.githubusercontent.com/aivfhaive/aistudio/main/macos.zip"
 DOWNLOAD_PATH="$HOME/Downloads/temp"
 USER_DIRECTORY="$HOME"
-EXE_FILE="$HOME/$APP_DIR/executables/tunnelgate.exe"
+EXE_FILE="$HOME/$APP_DIR/executables/tunnelgate"
 
 # Disabling zrok
 if [ -f "$EXE_FILE" ]; then
