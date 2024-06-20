@@ -2,10 +2,10 @@
 
 REM Set variables
 set APP_DIR=HaiVE-AI-Studio
-set DOWNLOAD_URL=https://public-download.mum-objectstore.e2enetworks.net/windows.zip
+set DOWNLOAD_URL=https://production.haive.in:5000/download/windows_manual_setup/windows.zip
 set DOWNLOAD_PATH=%USERPROFILE%\Downloads\temp
 set USER_DIRECTORY=%USERPROFILE%
-set EXE_FILE="%USERPROFILE%"\"%APP_DIR%"\executables\zrok.exe
+set EXE_FILE="%USERPROFILE%"\"%APP_DIR%"\executables\tunnelgate.exe
 
 REM Disabling zrok
 if exist "%EXE_FILE%" (
